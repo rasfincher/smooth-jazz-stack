@@ -21,7 +21,8 @@ export const meta: MetaFunction = () => ({
   viewport: "width=device-width,initial-scale=1",
 });
 
-export const loader: LoaderFunction = (args) => rootAuthLoader(args);
+export const loader: LoaderFunction = (args) =>
+  rootAuthLoader(args, { loadUser: true });
 
 function App() {
   return (
