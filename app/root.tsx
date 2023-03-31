@@ -1,4 +1,8 @@
 import type { LinksFunction, MetaFunction } from "@remix-run/node";
+import type { LoaderFunction } from "@remix-run/node";
+import { rootAuthLoader } from "@clerk/remix/ssr.server";
+import { ClerkApp } from "@clerk/remix";
+
 import {
   Links,
   LiveReload,
@@ -17,7 +21,9 @@ export const meta: MetaFunction = () => ({
   viewport: "width=device-width,initial-scale=1",
 });
 
-export default function App() {
+export const loader: LoaderFunction = (args) => rootAuthLoader(args);
+
+function App() {
   return (
     <html lang="en">
       <head>
@@ -33,3 +39,5 @@ export default function App() {
     </html>
   );
 }
+
+export default ClerkApp(App);
