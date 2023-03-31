@@ -12,7 +12,9 @@ export default function Index() {
             Minor friction, major performance, diminished complexity, augmented
             productivity
           </p>
-          <p>Built with Remix, Tailwind, and TypeScript. Deployed on Vercel.</p>
+          <p className="text-shadow-lg mt-6 text-center text-lg font-bold text-slate-100">
+            Built with Remix, Tailwind, and TypeScript. Deployed on Vercel.
+          </p>
         </div>
       </div>
     </main>
