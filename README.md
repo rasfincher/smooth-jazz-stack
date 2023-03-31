@@ -1,11 +1,11 @@
-# Minimal House Remix Stack 
+# Minimal House Remix Stack
 
 ![The Minimal Remix Stack Cover](https://user-images.githubusercontent.com/22895284/163196320-0d5070f8-1a51-4b06-93f4-ef92673784fe.png)
 
 ⚠️ This is community maintained Remix Stack. The Remix team does not endorse or check this. Learn more about [Remix Stacks](https://remix.run/stacks).
 
 ```
-npx create-remix --template BogDAAAMN/minimal-remix-stack
+npx create-remix --template rasfincher/smooth-jazz-stack
 ```
 
 ## What's in the stack
@@ -17,15 +17,15 @@ npx create-remix --template BogDAAAMN/minimal-remix-stack
 
 Not a fan of bits of the stack? Find [more stacks](https://github.com/topics/remix-stack) or [create your own](https://remix.run/stacks).
 
-| Package    | Version |
-|------------|---------|
+| Package     | Version |
+| ----------- | ------- |
 | 🚀 React    | 18.2.0  |
 | 💿 Remix    | 1.6.7   |
 | 💨 Tailwind | 3.0.24  |
 
 ## Quickstart
 
-Click this button to create a [Gitpod](https://gitpod.io) workspace with the project set up, and all the packages pre-installed 
+Click this button to create a [Gitpod](https://gitpod.io) workspace with the project set up, and all the packages pre-installed
 
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/from-referrer/)
 
@@ -36,7 +36,7 @@ Click this button to create a [Gitpod](https://gitpod.io) workspace with the pro
 ```sh
 npx remix init
 ```
-      
+
 Start dev server:
 
 ```sh
